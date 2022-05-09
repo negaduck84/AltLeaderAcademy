@@ -2815,7 +2815,7 @@ a {
   align-items: flex-end;
   background-size: cover;
   background-position: center;
-  box-shadow: 0 0 5em -1em black;
+  
   transition: all, var(--transition-time);
   position: relative;
   overflow: hidden;
@@ -2889,7 +2889,7 @@ a {
 }
 
 .card:after {
-  background: white;
+  background: whitesmoke;
   width: 200%;
   height: 200%;
 }
