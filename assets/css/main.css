@@ -2776,6 +2776,10 @@ section {
 --------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
+@font-face {
+  font-family: ASCircular;
+  src: url('https://rawcdn.githack.com/negaduck84/AltLeaderAcademy/eebb8568592509c6522a15d404ae39678e3927dc/ASCircular-Book.otf');
+}
 
 :root {
   
@@ -2815,11 +2819,10 @@ a {
   align-items: flex-end;
   background-size: cover;
   background-position: center;
-  
   transition: all, var(--transition-time);
   position: relative;
   overflow: hidden;
-  border: 10px solid #ccc;
+  border: 10px solid #C8C9C7;
   text-decoration: none;
 }
 
@@ -2846,17 +2849,19 @@ a {
 
 .card .tags .tag {
   font-size: 0.75em;
-  background: rgba(255,255,255,0.5);
+  background: #01426a;
   border-radius: 0.3rem;
   padding: 0 0.5em;
   margin-right: 0.5em;
   line-height: 1.5em;
   transition: all, var(--transition-time);
+  color: white;
+  font-weight: bolder;
 }
 
 .card:hover .tags .tag {
   background: var(--color);
-  color: white;
+  color: #008665;
 }
 
 .card .date {
