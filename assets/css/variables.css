@@ -23,6 +23,10 @@
   /* Fonts */
   --font-default:  "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-primary: "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --fontAS: @font-face {
+    font-family: ASCircular;
+    src: url('https://rawcdn.githack.com/negaduck84/AltLeaderAcademy/eebb8568592509c6522a15d404ae39678e3927dc/ASCircular-Book.otf');
+  }
   --font-secondary: 'Poppins', sans-serif;
 
   /* Colors */
@@ -46,11 +50,11 @@
   --color-primary-dark-rgb: 1, 137, 161;
 
   /* Secondary colors */
-  --color-secondary: #485664;
+  --color-secondary: #01426a;
   --color-secondary-light: #8f9fae;
   --color-secondary-dark: #3a4753;
 
-  --color-secondary-rgb: 72, 86, 100;
+  --color-secondary-rgb: 39, 116, 174;
   --color-secondary-light-rgb: 143, 159, 174;
   --color-secondary-dark-rgb: 58, 71, 83;
 
