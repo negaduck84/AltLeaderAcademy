@@ -2989,3 +2989,225 @@ a {
 .about-img:hover{
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+.sectioncontent {
+  float: left;
+  height: 100%;
+}
+.sectioncontent h2,
+.sectioncontent h4{
+  color:#3C3B3F;
+}
+.sectioncontent h2.section-headline{
+  color:#01426A;
+  font-size:26px;
+}
+.btn-link{
+  font-weight: 400 !important;
+}
+
+/* DIVIDER with IMAGE*/
+.sectioncontent .dual-divider{
+  text-align:center;
+  margin:30px 0;
+}
+.sectioncontent .divider-image{
+    border-left:38px solid #fff;
+    border-right:38px solid #fff;
+    background-color:#fff;
+}
+.sectioncontent .dual-divider:after {
+    content: '';
+    width: 94%;
+    border-bottom: solid 1px #DBDBDB;
+    position: absolute;
+    left: 3%;
+    margin-top:30px;
+    z-index: -1;
+}
+/* DIVIDER with IMAGE*/
+
+/*List Item Styling*/
+.sectioncontent ul{
+  margin-left:-20px;
+}
+.sectioncontent ul li{
+  list-style:none;
+  padding:0px 0px 1em 32px;
+  background-image:url('https://resource.alaskaair.net/-/media/Images/icons/auro-icons/CheckMark_final');
+  background-repeat:no-repeat;
+  line-height:24px;
+  background-position-y:5px;
+}
+
+.sectioncontent ul.airquality{
+  margin-left:-40px;
+}
+.sectioncontent ul.airquality li{
+  list-style:none;
+  padding:6px 0px 1em 7em;
+  background-repeat:no-repeat;
+  line-height:24px;
+  background-position-y:5px;
+}
+.sectioncontent ul.airquality li.hospital-grade-air-filtration{
+  background-image:url('https://resource.alaskaair.net/-/media/Images/pages/next-level-care/phase-3/illustration/Hepa');
+  padding:15px 0px 1em 7em;
+}
+.sectioncontent ul.airquality li.clean-air-exchange{
+  background-image:url('https://resource.alaskaair.net/-/media/Images/pages/next-level-care/phase-3/illustration/air_exchange-updated');
+  background-position-x:5px;
+  background-size:65px;
+}
+.sectioncontent ul.airquality li.top-down-air-flow{
+  background-image:url('https://resource.alaskaair.net/-/media/Images/pages/next-level-care/phase-3/illustration/air_flow');
+}
+.sectioncontent ul.airquality li h5{
+  color:#01426A;
+  margin-bottom:3px;
+}
+/*List Item Styling*/
+
+
+.icon-arrow-link{
+  margin:10px 0;
+  color:#2774AE;
+  font-size:13px;
+  padding-left:20px;
+  text-decoration:none;
+
+}
+.icon-arrow-link span.world{
+  font-weight:normal !important;
+}
+
+.sectioncontent .icon-arrow-link:before{
+  content:'';
+  position:absolute;
+  width:20px;
+  height:20px;
+  background-repeat: no-repeat;
+  display: block;
+  background-size:contain;
+  margin-left:-24px;
+  margin-top:0px;
+}
+.sectioncontent .icon-arrow-link.international-travel:before{
+  background-image: url('https://resource.alaskaair.net/-/media/Images/pages/next-level-care/phase-3/icons/global_language');
+}
+
+.sectioncontent .icon-arrow-link.secure-store:before{
+  background-image: url('https://resource.alaskaair.net/-/media/Images/pages/next-level-care/phase-3/icons/credit-card');
+}
+
+
+.sectioncontent .icon-arrow-link.mileage-plan-signup:before{
+  background-image: url('https://resource.alaskaair.net/-/media/Images/pages/next-level-care/phase-3/icons/star-stroke');
+}
+
+
+.sectioncontent .icon-arrow-link:after{
+  content:'';
+  background-image: url('https://resource.alaskaair.net/-/media/Images/pages/next-level-care/phase-3/icons/arrow-right');
+  position:absolute;
+  width:20px;
+  height:20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size:contain;
+  margin-left:2px;
+}
+.sectioncontent a .icon-arrow-link {
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.sectioncontent .back-to-top{
+  margin-top:20px;
+}
+
+.sectioncontent .back-to-top button#backToTop{
+  background-color:transparent;
+  border:none;
+  text-decoration:underline;
+  color:#2774ae;
+}
+
+
+
+.sectioncontent .premium-class-banner{
+  margin:30px 0px;
+  display:inline-block;
+  box-shadow:0px 1px 6px #c9c9c9;
+  border-radius:8px;
+  padding:30px 10px;
+}
+
+.sectioncontent .premium-class-banner .col-sm-5{
+  margin-top:5px;
+}
+
+.sectioncontent .premium-class-banner h3.pc-headline{
+  font-size:22px;
+  font-weight:normal;
+  color:#00274A;
+}
+
+a.upgrade-today-btn{
+  padding:8px 15px;
+  border-radius:6px;
+  text-decoration:none;
+  border:1px solid #2774AE;
+  color:#2774AE;
+  font-size:16px;
+}
+
+
+.sectioncontent .diamond-status{
+  display:inline-block;
+  border-radius:8px;
+  padding-top:30px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom:10px;
+  background-color:#01426A;
+}
+.sectioncontent .diamond-status .apex-achievement{
+  font-size:26px;
+  line-height:28px;
+  font-weight:700;
+  color:#fff;
+  margin-bottom:22px;
+}
+.sectioncontent .diamond-status .diamond-rating{
+  font-size:21px;
+  line-height:29px;
+  color:#fff;
+}
+
+.sectioncontent .diamond-status .col-sm-12 img,
+.sectioncontent .diamond-status .col-xs-12 img{
+  margin-bottom:30px;
+  width:300px;
+}
+
+a.diamond-status-link{
+  color:#00cff0;
+}
+
+a.diamond-status-link:hover{
+  color:#fff;
+}
+.previous-page-container{
+  text-align:left;
+  padding-left:0px;
+}
+.next-page-container{
+  text-align:right;
+  padding-right:0px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+  .sidebar .sidebar__inner{
+    margin-top:100px;
+  }
+}
