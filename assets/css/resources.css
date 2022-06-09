@@ -5,6 +5,10 @@
   
   
   
+  a:hover {
+    text-decoration: underline;
+  }
+  
   /* Hero Unit ----------------------*/
   .hero-unit {
     height: 640px;
@@ -13,15 +17,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    margin: auto;
-  
   }
-  
-  .hero-unit ul {
-    list-style: none;
-    
-  }
-  
   .hero-unit h1,
   .hero-unit h2,
   .hero-unit h3,
@@ -32,44 +28,31 @@
     margin-bottom: 0;
     color: #01426a;
   }
-  
   .hero-unit h1 {
-    font-family: AS;
     font-weight: bold;
     background: linear-gradient(to right,
-        #0074c8, #53b390);
+                       #0074c8, #53b390);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    margin-left: 10px;
+                  -webkit-background-clip: text;
   }
-  .hero-unit h3{
-    margin-left: 10px;
-  }
-  
   .hero-unit hgroup {
     margin: 3rem 0;
   }
-  
-  .hero-unit .card-icon {
-    /* front of card */
+  .hero-unit .card-icon { /* front of card */
     display: block;
     margin: 0.5rem auto 0;
     font-size: 2rem;
     color: white;
   }
-  
   .hero-unit .clients {
     margin: 2rem auto;
   }
-  
   .hero-unit .clients a {
     color: white;
   }
-  
   .clients .fa-stack-2x {
     color: gray;
   }
-  
   .clients:hover .fa-stack-2x {
     color: #333333;
   }
@@ -79,7 +62,6 @@
     margin: 0;
     padding: 3.25rem;
   }
-  
   .button.large a {
     color: white;
     font-size: 1.75rem;
@@ -95,40 +77,36 @@
     width: 20%;
     opacity: 0.5;
   }
-  
-  .panel a,
-  .panel p,
+  .panel a, 
+  .panel p, 
   .panel small {
     width: 80%;
     float: right;
   }
-  
   .panel a {
     margin-bottom: 0.5rem;
   }
-  
   .panel a:hover {
     text-decoration: underline;
   }
-  
   .panel small {
     margin-top: -0.5rem;
     font-style: italic;
   }
   
   /* Buttons Card Flipper 
-  * Source: https://cssdeck.com/labs/rxcleo5w
-  */
+   * Source: https://cssdeck.com/labs/rxcleo5w
+   */
   .flip-cards {
-    display: block;
+    float: left;
     width: 100%;
     height: 100%;
     padding-left: 1rem;
   }
   
   .flip-cards li {
-    display: block;
-    width: 33.33%;
+    float: left;
+    width: 33.3%;
     height: 180px;
     position: relative;
     padding: 0;
@@ -213,131 +191,111 @@
   }
   
   /* First button color */
-  .flip-cards li:first-child>.button {
+  .flip-cards li:first-child > .button {
     background-color: rgba(40, 57, 77, 0.8);
   }
-  
-  .flip-cards li:first-child>.panel {
+  .flip-cards li:first-child > .panel {
     background-color: rgba(40, 57, 77, 1);
   }
   
   /* Second button color */
-  .flip-cards li:nth-child(2)>.button {
+  .flip-cards li:nth-child(2) > .button {
     background-color: rgba(109, 193, 202, 0.8);
   }
-  
-  .flip-cards li:nth-child(2)>.panel {
+  .flip-cards li:nth-child(2) > .panel {
     background-color: rgba(109, 193, 202, 1);
   }
   
   /* Third button color */
-  .flip-cards li:nth-child(3)>.button {
+  .flip-cards li:nth-child(3) > .button {
     background-color: rgba(211, 81, 45, 0.8);
   }
-  
-  .flip-cards li:nth-child(3)>.panel {
+  .flip-cards li:nth-child(3) > .panel {
     background-color: rgba(211, 81, 45, 1);
   }
   
   /* Fourth button color */
-  .flip-cards li:nth-child(4)>.button {
+  .flip-cards li:nth-child(4) > .button {
     background-color: rgba(235, 167, 36, 0.8);
   }
-  
-  .flip-cards li:nth-child(4)>.panel {
+  .flip-cards li:nth-child(4) > .panel {
     background-color: rgba(235, 167, 36, 1);
   }
   
   /* Fifth button color */
-  .flip-cards li:nth-child(5)>.button {
+  .flip-cards li:nth-child(5) > .button {
     background-color: rgba(75, 135, 150, 0.8);
   }
-  
-  .flip-cards li:nth-child(5)>.panel {
+  .flip-cards li:nth-child(5) > .panel {
     background-color: rgba(75, 135, 150, 1);
   }
   
   /* Sixth (last) button color */
-  .flip-cards li:last-child>.button {
+  .flip-cards li:last-child > .button {
     background-color: rgba(100, 66, 87, 0.8);
   }
-  
-  .flip-cards li:last-child>.panel {
+  .flip-cards li:last-child > .panel {
     background-color: rgba(100, 66, 87, 1);
     color: white;
   }
   
   /*
-  * RESPONSIVENESS -------------------------------------------------
-  */
-  @media only screen and (max-width: 40em) {
-    .hero-unit {
-      height: 800px;
-    }
-  
-    .flip-cards li {
-      width: 50%;
-      /*height: 160px;*/
-    }
+   * RESPONSIVENESS -------------------------------------------------
+   */
+  @media only screen and ( max-width: 40em ) {
+      .hero-unit {
+          height: 800px;
+      }
+      .flip-cards li {
+          width: 50%;
+          /*height: 160px;*/
+      }
   }
-  
-  @media only screen and (max-width: 30em) {
-    .hero-unit h1 {
-      font-size: 1.75rem;
-    }
-  
-    .hero-unit h3 {
-      font-size: 1.125rem;
-    }
+  @media only screen and ( max-width: 30em ) {
+      .hero-unit h1 {
+          font-size: 1.75rem;
+      }
+      .hero-unit h3 {
+          font-size: 1.125rem;
+      }
   }
-  
-  @media only screen and (max-width: 25em) {
-    .hero-unit {
-      height: 920px;
-    }
-  
-    .hero-unit hgroup {
-      margin: 2rem 0;
-    }
-  
-    .hero-unit h1 {
-      font-size: 1.35rem;
-      padding-bottom: 0.25rem;
-    }
-  
-    .hero-unit h3 {
-      font-size: 0.85rem;
-    }
-  
-    .hero-unit .card-icon {
-      font-size: 1.35rem;
-    }
-  
-    .hero-unit .card-back .card-icon {
-      font-size: 2rem;
-      margin: 0;
-      padding: 5px 0 20px 5px;
-    }
-  
-    .flip-cards li {
-      width: 100%;
-      font-size: 1.35rem;
-      height: 120px;
-    }
-  
-    .flip-cards .panel p {
-      display: none;
-    }
-  
-    .flip-cards .panel small {
-      margin: 0;
-    }
-  
-    .button.large {
-      padding: 2rem;
-    }
-  
-    .button.large a {
-      font-size: 1.35rem;
-    }
+  @media only screen and ( max-width: 25em ) {
+      .hero-unit {
+          height: 920px;
+      }
+      .hero-unit hgroup {
+          margin: 2rem 0;
+      }
+      .hero-unit h1 {
+          font-size: 1.35rem;
+          padding-bottom: 0.25rem;
+      }
+      .hero-unit h3 {
+          font-size: 0.85rem;
+      }
+      .hero-unit .card-icon {
+          font-size: 1.35rem;
+      }
+      .hero-unit .card-back .card-icon {
+          font-size: 2rem;
+          margin: 0;
+          padding: 5px 0 20px 5px;
+      }
+      .flip-cards li {
+          width: 100%;
+          font-size: 1.35rem;
+          height: 120px;
+      }
+      .flip-cards .panel p {
+          display: none;	
+      }
+      .flip-cards .panel small {
+          margin: 0;
+      }
+      .button.large {
+          padding: 2rem;
+      }
+      .button.large a {
+          font-size: 1.35rem;
+      }
   }
