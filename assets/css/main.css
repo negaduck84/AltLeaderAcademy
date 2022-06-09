@@ -109,6 +109,7 @@ section {
   font-weight: 300;
   margin-bottom: 20px;
   color: var(--color-secondary);
+  font-family: ASCircular;
 }
 .section-header p {
   margin: 0 auto;
@@ -3058,7 +3059,7 @@ a {
 .sectioncontent .back-to-top button#backToTop{
   background-color:transparent;
   border:none;
-  text-decoration:underline;
+  
   color:#2774ae;
 }
 
