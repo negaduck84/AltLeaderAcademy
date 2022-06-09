@@ -11,6 +11,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
+@font-face {
+  font-family: ASCircular;
+  src: url('https://rawcdn.githack.com/negaduck84/AltLeaderAcademy/eebb8568592509c6522a15d404ae39678e3927dc/ASCircular-Book.otf');
+}
 :root {
   scroll-behavior: smooth;
 }
@@ -2706,11 +2711,6 @@ section {
 # Card
 --------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Heebo:400,700|Open+Sans:400,700');
-@font-face {
-  font-family: ASCircular;
-  src: url('https://rawcdn.githack.com/negaduck84/AltLeaderAcademy/eebb8568592509c6522a15d404ae39678e3927dc/ASCircular-Book.otf');
-}
 
 :root {
   
