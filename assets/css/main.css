@@ -3145,3 +3145,32 @@ a.diamond-status-link:hover{
 /*--------------------------------------------------------------
 # Growth
 --------------------------------------------------------------*/
+
+.cheader {
+
+
+  font-size: 40px;
+  font-family: ASCircular, Helvetica, sans-serif;
+  background: linear-gradient(to right,
+      #01426a, #0074c8, #53b390);
+  -webkit-text-fill-color: transparent;
+  
+}
+
+.wrapper1 {
+  position: relative;
+  display: flex;
+  height: 300px;
+}
+
+.column1 {
+  flex-direction: column;
+  height: auto;
+}
+
+.flex-container-1 {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 100%;
+}
