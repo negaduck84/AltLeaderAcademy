@@ -2,7 +2,46 @@
     font-family: AS;
     src: url(https://rawcdn.githack.com/negaduck84/AltLeaderAcademy/eebb8568592509c6522a15d404ae39678e3927dc/ASCircular-Book.otf);
   }
-  
+  .hero-unit .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 62.5rem; }
+    .hero-unit .row:before, .hero-unit .row:after {
+      content: " ";
+      display: table; }
+    .hero-unit .row:after {
+      clear: both; }
+    .hero-unit .row.collapse > .column,
+    .hero-unit .row.collapse > .columns {
+      padding-left: 0;
+      padding-right: 0; }
+    .hero-unit .row.collapse .hero-unit .row {
+      margin-left: 0;
+      margin-right: 0; }
+    .hero-unit .row .hero-unit .row {
+      width: auto;
+      margin-left: -0.9375rem;
+      margin-right: -0.9375rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      max-width: none; }
+      .hero-unit .row .hero-unit .row:before, .hero-unit .row .hero-unit .row:after {
+        content: " ";
+        display: table; }
+      .hero-unit .row .hero-unit .row:after {
+        clear: both; }
+      .hero-unit .row .hero-unit .row.collapse {
+        width: auto;
+        margin: 0;
+        max-width: none; }
+        .hero-unit .row .hero-unit .row.collapse:before, .hero-unit .row .hero-unit .row.collapse:after {
+          content: " ";
+          display: table; }
+        .hero-unit .row .hero-unit .row.collapse:after {
+          clear: both; }
   
   
   a:hover {
@@ -17,6 +56,11 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
   }
   .hero-unit h1,
   .hero-unit h2,
