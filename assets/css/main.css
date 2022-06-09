@@ -2736,6 +2736,7 @@ a {
   width: max-content;
 }
 
+
 .card {
   font-family: var(--fontAS);
  
@@ -2776,7 +2777,7 @@ a {
   font-size: 0.75em;
   font-family: ASCircular;
   margin-top: 0.5em;
-  line-height: 2em;
+  line-height: 1em;
 }
 
 .card .tags {
