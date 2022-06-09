@@ -2758,6 +2758,7 @@ a {
 
 .card:hover {
   transform: rotate(0);
+  text-decoration: none;
 }
 .card:hover p, h1{
   color:#01426A;
