@@ -2759,6 +2759,9 @@ a {
 .card:hover {
   transform: rotate(0);
 }
+.card:hover p, h1{
+  color:#01426A;
+}
 
 .card h1 {
   margin: 0;
@@ -2768,7 +2771,7 @@ a {
 
 .card p {
   font-size: 0.75em;
-  font-family: 'Open Sans';
+  font-family: ASCircular;
   margin-top: 0.5em;
   line-height: 2em;
 }
