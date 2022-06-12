@@ -2730,8 +2730,8 @@ a {
   justify-content: center;
   align-items: center;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 3rem;
-  padding: 3rem;
+  grid-gap: 2rem;
+  padding: 2rem;
   margin: 0 auto;
   width: max-content;
 }
