@@ -2876,7 +2876,7 @@ a {
 
 @media screen and (max-width: 900px) {
   .cards-wrapper {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   .info {
     justify-content: center;
