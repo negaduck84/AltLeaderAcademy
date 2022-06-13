@@ -46,7 +46,7 @@ a {
  
   background-size: cover;
   background-position: center;
-  align-items: flex-end;
+ 
   transition: all, var(--transition-time);
   position: relative;
   overflow: hidden;
